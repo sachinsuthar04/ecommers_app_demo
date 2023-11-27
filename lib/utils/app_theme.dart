@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
   static ThemeData appTheme = ThemeData(
-    fontFamily: "AlegreyaSans",
+    fontFamily: "Poppins",
     textTheme: const TextTheme(
       displayLarge: TextStyle(
         fontSize: 38,

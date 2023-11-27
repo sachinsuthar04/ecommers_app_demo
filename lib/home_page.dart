@@ -73,7 +73,6 @@ class _HomePageState extends State<HomePage> {
         selectedIndex: 0,
         items: [
           BottomBarItem(iconData: Icons.home),
-          BottomBarItem(iconData: Icons.search),
           BottomBarItem(iconData: Icons.explore),
           BottomBarItem(iconData: Icons.settings),
           BottomBarItem(iconData: Icons.mail),

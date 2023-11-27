@@ -37,10 +37,10 @@ flutter:
     - assets/images/
 
   fonts:
-    - family: AlegreyaSans
+    - family: Poppins
       fonts:
-        - asset: assets/fonts/AlegreyaSans-Bold.ttf
-        - asset: assets/fonts/AlegreyaSans-Medium.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
 
 
 

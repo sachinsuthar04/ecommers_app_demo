@@ -61,7 +61,7 @@ class _HomeState extends State<Home> {
                           style: textTheme.displayLarge,
                           children: [
                             TextSpan(
-                              text: " Style",
+                              text: " Look",
                               style: textTheme.displayLarge?.copyWith(
                                 color: Colors.orange,
                                 fontSize: 45,
@@ -81,7 +81,7 @@ class _HomeState extends State<Home> {
                           ),
                           children: [
                             TextSpan(
-                              text: "suggestions :)",
+                              text: "suggestions",
                             ),
                           ],
                         ),
@@ -267,10 +267,10 @@ class _HomeState extends State<Home> {
           double value = 0.0;
           if (_pageController.position.haveDimensions) {
             value = index.toDouble() - (_pageController.page ?? 0);
-            value = (value * 0.04).clamp(-1, 1);
+            value = 0;
           }
           return Transform.rotate(
-            angle: 3.14 * value,
+            angle:value,
             child: card(mainList[index], theme, size),
           );
         });
