@@ -8,7 +8,7 @@ class RazorPayIntegration {
 
   openSession({required num amount, required Razorpay razorpay}) {
     createOrder(amount: amount).then((orderId) {
-      print(orderId);
+      print("orderId==" + orderId);
       if (orderId.toString().isNotEmpty) {
         var options = {
           'key': razorPayKey,
