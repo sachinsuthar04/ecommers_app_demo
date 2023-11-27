@@ -8,11 +8,11 @@ This project is a starting point for a Flutter application.
 
 ## Feature
 
-Home page with product listing
-Product Detail Page
-Add to Cart
-Checkout
-Test Payment Gateway Integration.
+1.Home page with product listing
+2.Product Detail Page
+3.Add to Cart
+4.Checkout
+5.Test Payment Gateway Integration.
 
 ## Test Payment Gateway Integration.
 payment gateway is Razor pay 
