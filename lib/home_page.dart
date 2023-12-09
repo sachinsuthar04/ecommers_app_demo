@@ -5,7 +5,6 @@ import 'package:line_icons/line_icons.dart';
 
 import '../screens/cart.dart';
 import '../screens/home.dart';
-import '../screens/search.dart';
 import '../utils/constants.dart';
 
 class HomePage extends StatefulWidget {
@@ -16,8 +15,12 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+
+
   @override
   Widget build(BuildContext context) {
+    int awww = 4;
+    String postsURL = "https://randomuser.me/api/?results=$awww";
     return Scaffold(
       appBar: AppBar(
         title: FadeIn(
