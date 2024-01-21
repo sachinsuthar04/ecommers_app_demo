@@ -4,8 +4,6 @@ import 'package:razorpay_flutter/razorpay_flutter.dart';
 import '../utils/constants.dart';
 
 class RazorPayIntegration {
-  // final Razorpay _razorpay = Razorpay(); //Instance of razor pay
-
   openSession({required num amount, required Razorpay razorpay}) {
     createOrder(amount: amount).then((orderId) {
       print(orderId);
